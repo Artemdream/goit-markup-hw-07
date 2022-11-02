@@ -1,3 +1,32 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-white-color: #ffffff;
+  --primery-color-button: #F5F4FA;
+  --primary-bg-color: #2F303A;
+  --pimary-soc-icon-color:#AFB1B8;
+  --secondary-bgc-color:#188CE8;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+a {
+  text-decoration: none;
+}
+
 p,
 h1,
 h2,
@@ -27,41 +56,12 @@ ol {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
-:root {
-  --primary-text-color: #757575;
-  --secondary-text-color: #212121;
-  --accent-color: #2196F3;
-  --primary-white-color: #ffffff;
-  --primery-color-button: #F5F4FA;
-  --primary-bg-color: #2F303A;
-  --pimary-soc-icon-color:#AFB1B8;
-  --secondary-bgc-color:#188CE8;
-}
-
 body {
   color: var(--secondary-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
   background-color: var(--primary-white-color);
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
-  margin: -1px;
 }
 
 .container {

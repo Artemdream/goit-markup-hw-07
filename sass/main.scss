@@ -1,6 +1,8 @@
-@import './base/reset';
 @import './utils/variables';
 @import './utils/visually-hidden';
+
+@import './base/reset';
+@import './base//common';
 
 @import './components/container';
 @import './components/btn';
@@ -15,4 +17,4 @@
 @import './layout/regular-customers';
 @import './layout/footer';
 
-@import './portfolio/section-portfolio';
+@import './pages/section-portfolio';
